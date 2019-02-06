@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora Nubank Dolar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <img id="logo" src="files/logo_nubank1.png" alt="LogoDaNubank">
+    </div>
+    <div id="result">
+        <h2>Seu valor será:</h2>
+        <h1 id="clientValue"></h1>
+        <h4>*O valor final pode variar do resultado exibido</h4>
+    </div>
+    <input type="number" placeholder="Valor em USD" id="inputUsd" onchange="revealResult()"/>
+    <button id="yeet" onclick="revealResult()">Calcular</button>
+</body>
+</html>

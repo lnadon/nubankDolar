@@ -1,0 +1,187 @@
+@media (max-width:699px){
+    body{
+        position: absolute;
+        margin: 0;
+        background-color: #8A05BE;
+        width: 100%;
+        height: 100%;
+    }
+
+    #logo{
+        position: absolute;
+        display: block;
+        transform: translate(-50%,-50%);
+        top: 15%;
+        left:50%;
+        width: 70%;
+    }
+    #inputUsd{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 35%;
+        left: 50%;
+        background-color: white;
+        text-align: center;
+        width: 35%;
+        height: 30px;
+        border-radius: 20px;
+        border: 0;
+        font-size: 15px;
+        
+    }
+    input:focus{
+        outline: #8A05BE;
+    }
+    #result{
+        opacity: 0;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        border:1px solid lightgray;
+        border-radius: 20px;
+        width: 85%;
+        background-color: white;
+    }
+
+    h1, h2{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 45px;
+        margin: 15px auto;
+        font-weight: bold;
+    }
+
+    h4{
+        margin: 0px auto 5px auto;
+        text-align: center;
+        font-size: 10px;
+        opacity: 0.4;
+    }
+    button{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 50%;
+        border-radius: 50px;
+        padding: 5px 10px;
+        background: white;
+        border: 0;
+        color: #8A05BE;
+        font-weight: bold;
+        width: 30%;
+        height: 35px;
+        font-size: 22px;
+        text-align: center;
+    }
+}
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@media (min-width:700px){
+    body{
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    #container{
+        background-color:#8A05BE;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-clip-path: polygon(0 0, 85% 0, 65% 100%, 0% 100%);
+        clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);
+        margin: 0;
+    }
+    #logo{
+        position: absolute;
+        display: block;
+        transform: translate(-50%,-50%);
+        width:50%;
+        top: 50%;
+        left: 30%;
+    }
+    #inputUsd{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 70%;
+        left: 84%;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        width: 15%;
+        height: 30px;
+        border: 0.5px solid rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        font-size: 17px;
+    }
+    input:focus{
+        outline: none;
+    }
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none; 
+    }
+    #result{
+        opacity: 0;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 84%;
+        border: 1.5px solid lightgray;
+        border-radius: 20px;
+        width: 25%;
+        background-color: white;
+    }
+
+    h1, h2{
+        font-family: 'Montserrat';
+        text-align: center;
+    }
+
+    h1{
+        font-size: 45px;
+        margin: 15px auto;
+        font-weight: bold;
+    }
+
+    h4{
+        margin: 0px auto 5px auto;
+        padding: 0 5px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 10px;
+        opacity: 0.4;
+    }
+    button{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 75%;
+        left: 84%;
+        border-radius: 50px;
+        padding: 5px 10px;
+        background: #8A05BE;
+        border: 0;
+        box-shadow: 1px 1px 9px black;
+        color: #fff;
+        font-weight: bold;
+        width: 15%;
+        height: 35px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    button:hover {
+        cursor: pointer;
+        width: 16%;
+        height: 38px;
+        font-size: 24px;
+        box-shadow: 1px 1px 7px black;
+    }
+}
