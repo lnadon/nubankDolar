@@ -2,6 +2,8 @@
 
 Com o site Nubank Dólar você pode calcular quanto a sua compra em dólares feita pelo cartão Nubank vai ficar antes mesmo do fechamento da sua fatura. Além disso, o site é especialmente otimizado para o uso em computadores, celulares e tablets. 
 
+[Clique Aqui Para ir Para o Site](https://lnardon.github.io/nubankDolar/)
+
 
 # Como Funciona o Cálculo ???
 
