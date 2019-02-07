@@ -18,7 +18,7 @@
     #inputUsd{
         position: absolute;
         transform: translate(-50%,-50%);
-        top: 70%;
+        top: 75%;
         left: 50%;
         background-color: white;
         text-align: center;
@@ -64,7 +64,7 @@
     button{
         position: absolute;
         transform: translate(-50%,-50%);
-        top: 75%;
+        top: 85%;
         left: 50%;
         border-radius: 50px;
         padding: 5px 10px;
