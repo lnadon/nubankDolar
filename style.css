@@ -18,7 +18,7 @@
     #inputUsd{
         position: absolute;
         transform: translate(-50%,-50%);
-        top: 35%;
+        top: 70%;
         left: 50%;
         background-color: white;
         text-align: center;
@@ -64,7 +64,7 @@
     button{
         position: absolute;
         transform: translate(-50%,-50%);
-        top: 70%;
+        top: 75%;
         left: 50%;
         border-radius: 50px;
         padding: 5px 10px;
@@ -72,7 +72,7 @@
         border: 0;
         color: #8A05BE;
         font-weight: bold;
-        width: 30%;
+        width: 35%;
         height: 35px;
         font-size: 22px;
         text-align: center;
@@ -119,7 +119,7 @@
         height: 30px;
         border: 0.5px solid rgba(0, 0, 0, 0.7);
         border-radius: 20px;
-        font-size: 17px;
+        font-size: 16px;
     }
     input:focus{
         outline: none;
