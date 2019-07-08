@@ -12,4 +12,4 @@ Primeiramente o valor digitado no campo é multiplicado pelo IOF (6,38%) e pela 
 # Conhecimentos Adquiridos e Utilizados Neste Website
   - Fetch / Promises (para obtenção da cotação do dólar)
   - Media Queries (tornar o site responsivo para computadores, celulares e tablets)
-  - Keyframes (animação da aparicão do resultado final)
+  - Keyframes (animação da aparição do resultado final)
